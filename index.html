@@ -6,20 +6,22 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>BBC</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <!--header-->
         <header>
-
-            <section>
+            <section class="">
                 <img src="assets/bbc_logo.png" alt="BBC logo" class="bbcLogo">
-                <img src="assets/account_icon.svg" alt="account icon" class="accountIcon">
-                <p class="">Sign In</p>
+                
+                <div class="left">
+                    <img src="assets/account_icon.svg" alt="account icon" class="accountIcon">
+                    <p class="signIn">Sign In</p>
+                </div>   
             </section>
-
             <nav>
-                <ul>
+                <ul class="left">
                     <li class="navLink"><a href="#">Home</a></li>
                     <li class="navLink"><a href="#">News</a></li>
                     <li class="navLink"><a href="#">Sport</a></li>
@@ -31,7 +33,6 @@
                     <li class="navLink"><a href="#">More</a></li>
                 </ul>
             </nav>
-
             <section class="searchBarContainer">
                 <form role="search" method="get" action="https://search.bbc.co.uk/search">
                     <label></label>
@@ -43,14 +44,11 @@
 
         <!--Welcome to BBC.com Section-->
         <section class="welcomeSection">
-            
             <section class="welcomeSectionBanner">
                 <h2 class="welcomeSectionTitle">Welcome to BBC.com</h2>
                 <span class="todaysDate">Thursday, 13 August</span>
             </section>
-
             <section class="welcomeSectionStoryGroup">
-
                 <section class="welcomeSection mainStory">
                     <img class="mainStoryImg" src="assets/israel_uae.jpg" alt="Israel-and-UAE.img">
                     <h1 class="mainStoryHeader">ISRAEL and UAE strike historic peace deal</h1>
@@ -59,25 +57,21 @@
                 </section>
 
                 <section class="welcomeSection subStory">
-
                     <section class="subStories subStory1">
                         <img src="assets/american_flag.jpg" alt="American-Flag.img" class="subStoryImg">
                         <h3 class="subStoryTitle">Americans, Go home: Tension at Canada-US border</h3>
                         <a class="subStorySubject" href="#">CANADA</a>
                     </section>
-
                     <section class="subStories subStory2">
                         <img src="assets/vaccine.jpg" alt="vaccine-bottle.img" class="subStoryImg">
                         <h3 class="subStoryTitle">How will the world vaccinate seven billion people?</h3>
                         <a class="subStorySubject" href="#">HEALTH</a>
                     </section>
-
                     <section class="subStories subStory3">
                         <img src="assets/computer_work.jpg" alt="computer-work.img" class="subStoryImg">
                         <h3 class="subStoryTitle">The online 'productivity gyms'</h3>
                         <a class="subStorySubject" href="#">WORKLIFE</a>
                     </section>
-
                     <section class="subStories subStory4">
                         <img src="assets/musician.jpg" alt="musician.img" class="subStoryImg">
                         <h3 class="subStoryTitle">The folk singer murdered for his music</h3>
